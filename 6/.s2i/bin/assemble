@@ -9,12 +9,11 @@ echo "---> Enabling s2i support in httpd24 image"
 config_s2i
 
 ######## CUSTOMIZATION STARTS HERE ############
+
 cp -Rf /tmp/src/*.html ./
-date=`date +%Y-%d-%m`
-echo "THIS IS THE WWW3 $date" >> info.html
+DATE=`date +%Y-%d-%m`
+echo "THIS iS WAR $DATE">>info.html
 echo "print('Hello, world!')" >> mail.py
-
-
 
 ######## CUSTOMIZATION ENDS HERE ############
 
